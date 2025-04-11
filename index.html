@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Posting Page</title>
+</head>
+<body>
+    <div class="posting-container" id="posting-container">
+        <div class="posting-content">
+            <form id="form-posting">
+                <label for="titulo">Título</label><br>
+                <input type="text" class="tituloPost" id="tituloPost" placeholder="Escreva o título aqui"><br>
+                <label for="conteudo">Conteúdo</label><br>
+                <textarea class="conteudoPost" id="conteudoPost" placeholder="Escreva o conteúdo aqui..."></textarea>
+            </form>
+        </div>
+        <button id="botao">Enviar</button>
+        <h2 id="renderizador-titulo"></h2>
+        <p id="renderizador-conteudo"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
